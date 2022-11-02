@@ -1,0 +1,91 @@
+/* imported Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+/* General body reset and basic style setting */
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+}
+/* header Styling */
+#title {
+    text-align: center;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+    font-weight: 900;
+}
+#description {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 900;
+}
+header hr {
+    width: 100%;
+    border: 2px solid black;
+}
+/* form field styling  */
+.container {
+    width: 90%;
+    background-color: #FAE1DF;
+    padding: 2rem 5rem;
+    border: 2px solid #FAE1DF;
+    box-shadow: 5px 4px 25px #FAE1DF;;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+#form{
+    text-align: left;
+    padding: 0 40px;
+}
+#form input[type="text"]{
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    width: 60%;
+}
+#form input[name="food"], #form input[type="radio"] {
+    margin-left: 1rem;
+    margin-right: 5px;
+    width: 13px;
+    height: 13px;
+}
+#form label {
+    margin-right: 16px;
+}
+#form .field {
+    margin: 20px;
+}
+.container .align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button {
+    display: block;
+    min-width: 60%
+}
+/* table styling */
+
+.container .table {
+    margin: 30px 20px;
+    min-height: 40vh;
+}
+.table tr th {
+    text-align: center;
+    padding: 18px;
+    font-size: 19px;
+    font-weight: 900;
+}
+.table tr td {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
